@@ -54,8 +54,9 @@ public class step2_page extends page_base {
 
 		//Scroll to down
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-	    js.executeScript("arguments[0].scrollIntoView();", Quantity);
-	    
+	    //js.executeScript("arguments[0].scrollIntoView();", Quantity);
+	    js.executeScript("window.scrollBy(0,250)", "");
+
 	    //Fill step 2 data
 	    
 	    //Auction Name
@@ -114,7 +115,8 @@ public class step2_page extends page_base {
 		
 		//Scroll to down
 	    js.executeScript("arguments[0].scrollIntoView();", NextStep2);
-	    
+	    js.executeScript("window.scrollBy(0,250)", "");
+
 	    //Main Image
 	    MainImage.click();
 	    WebElement image = MainImage;

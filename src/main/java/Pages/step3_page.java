@@ -54,8 +54,9 @@ public class step3_page extends page_base {
 		
 		//Scroll to down
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-	    js.executeScript("arguments[0].scrollIntoView();", NextStep3);
-	    
+	    //js.executeScript("arguments[0].scrollIntoView();", NextStep3);
+	    js.executeScript("window.scrollBy(0,350)", "");
+
 	    //Auction Duration
 		AuctionDuration.click();
 		WebElement duration = AuctionDuration;
