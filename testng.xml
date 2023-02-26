@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mazaady Smoke Test">
+	<parameter name="browser" value="chrome">
+	</parameter>
+	<test name="Smoke test">
+		<classes>
+			<class name="tests.login_test" />
+			<class name="tests.home_test" />
+			<class name="tests.addproduct_test" />
+			<class name="tests.step2_test" />			
+			<class name="tests.step3_test" />
+		</classes>
+	</test>
+</suite> 
