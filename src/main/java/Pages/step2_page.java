@@ -80,7 +80,7 @@ public class step2_page extends page_base {
 		//Quantity
 		Quantity.click();
 		Quantity.clear();
-		SetTextElementText(Quantity, "1");
+		SetTextElementText(Quantity, "10");
 		
 		//Scroll to down
 	    js.executeScript("window.scrollBy(0,250)", "");

@@ -9,6 +9,7 @@
 			<class name="tests.addproduct_test" />
 			<class name="tests.step2_test" />			
 			<class name="tests.step3_test" />
+			<class name="tests.step4_test" />
 		</classes>
 	</test>
 </suite> 

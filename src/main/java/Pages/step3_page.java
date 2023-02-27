@@ -50,7 +50,7 @@ public class step3_page extends page_base {
 	WebElement NextStep3;
 
 	
-	public void NavigateToNextStep() {
+	public void NavigateToStep4() {
 		
 		//Scroll to down
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -78,7 +78,7 @@ public class step3_page extends page_base {
 	    //Buy Now Value 
 		BuyNowValue.click();
 		BuyNowValue.clear();
-		SetTextElementText(BuyNowValue , "2");
+		SetTextElementText(BuyNowValue , "3");
 
 	    //Starting Bid Value 
 		StartingBidValue.click();
